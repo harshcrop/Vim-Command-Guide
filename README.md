@@ -1,4 +1,4 @@
-# Vim Command Guide
+# Vim Command Guide ![](http://static.thegeekstuff.com/wp-content/uploads/2009/06/vim_logo.png)
 
      ## Basics                                                  |  ## Navigation 
                                                                 |  
