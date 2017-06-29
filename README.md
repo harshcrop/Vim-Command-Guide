@@ -24,5 +24,22 @@
        * <<                 Un-indent                           | * yw         Copy word
        * =%                 Indent the code between parenthesis | * p          Paste clipboard contents 
        * 16VG=              Indent the whole file               | 
+
+
+    # File Explorer                                             |  ## Alignment 
+                                                                |  
+       * :args*.php             Open file list                  | * :%!fmt     Align all lines
+       * :grep expression*.php  Returns a list of .php files    | * !}fmt      Align all lines at the current position
+                                containing expresson            | * 5!!fmt     Align the next 6 lines
+                                                                | 
+       * gf                     Open file name under cursor     |  
+       * :Sex                   Split window and open           |  ## Marks
+                                integrated file exploer         |
+                                                                | * m{a-z}     Marks current position as {a-z}
+       * :Sex!                  Same as:Sex but split vertically| * '{a-z}     Move to position {a-z}                      
+       * :browse                eGraphical file explorer        | * "          Move to previos position                 
+       * :ls                    List buffers                    | 
+       * :cd ..                 Move to parent directory        |
+       * :args                  List files                      |    
                                                              
 
