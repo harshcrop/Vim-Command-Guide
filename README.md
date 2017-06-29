@@ -13,3 +13,16 @@
                                                                 | * ]]         jump to block start
                                                                 | * :<number>  go to line <number>
                                                                 | * <number>|  go to column <number>
+
+     ## Text Indent                                             |  ## Cut/Copy/Paste 
+                                                                |  
+       * :set autoindent    Turn on auto-indent                 | * y          Copy selected text to clipboard
+       * :set smartindent   Turn on intelligent auto-indent     | * dd         Cut current line
+       * :set shiftwidth=4  Define 4 spaces as indent size      | * yy         Copy current line
+       * :sav filename      Saves file as filename              | * ys         Copy to end of line
+       * >>                 Indent                              | * D          Cut to end of line
+       * <<                 Un-indent                           | * yw         Copy word
+       * =%                 Indent the code between parenthesis | * p          Paste clipboard contents 
+       * 16VG=              Indent the whole file               | 
+                                                             
+
