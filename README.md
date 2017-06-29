@@ -26,7 +26,7 @@
        * 16VG=              Indent the whole file               | 
 
 
-    # File Explorer                                             |  ## Alignment 
+     ## File Explorer                                           |  ## Alignment 
                                                                 |  
        * :args*.php             Open file list                  | * :%!fmt     Align all lines
        * :grep expression*.php  Returns a list of .php files    | * !}fmt      Align all lines at the current position
@@ -41,5 +41,23 @@
        * :ls                    List buffers                    | 
        * :cd ..                 Move to parent directory        |
        * :args                  List files                      |    
+       
+      ## Text Surgery                                           |  ## File I/O  
+                                                                |  
+       * Vu                     Lowercase line                  | * :r infile  Insert the content of infile
+       * VU                     Uppercase line                  | 
+       * g~~                    Invert case                     | 
+       * vEU                    Switch word to uppercase        | 
+       * vE~                    Modife word case                |  
+       * ggguG                  Set all text to lowercase       |  ## Interaction with Linux
+       * gggUG                  Set all text to uppercase       |
+                                                                | * :!<cmd>    Execute the command and return to Vim
+       * :Sex!                  Same as:Sex but split vertically| * !!<comd>   Execute the command and insert 
+                                                                |              output to Vim          
+       * :browse                eGraphical file explorer        | * :bash      Open shell                 
+       * :ls                    List buffers                    | 
+       * :cd ..                 Move to parent directory        |
+       * :args                  List files                      |    
+                                                             
                                                              
 
